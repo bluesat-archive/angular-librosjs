@@ -1,0 +1,13 @@
+{
+  "name" : "angular-librosjs",
+  "version": "0.0.0",
+  "description": "Angular JS Wraper for librosjs",
+  "repository" : "http://github.com/bluesat/angular-librosjs",
+
+  "devDependencies" : {
+    "bower": "^1.7.7"
+  },
+  "scripts" : {
+    "postinstall" : "bower install"
+  }
+}

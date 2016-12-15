@@ -1,0 +1,20 @@
+<!doctype html>
+<html >
+<head>
+    <!-- when not debuging these should be .min.js -->
+    <script src="../bower_components/eventemitter2/lib/eventemitter2.js"></script>
+    <script src="../bower_components/roslib/build/roslib.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../js/angular-roslib.module.js"></script>
+    <script src="../js/angular-roslib.service.js"></script>
+    <script src="../js/angular-roslib.log-component.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="sample-app">
+
+    <div ng-controller="rootCont">
+        <ars-log-component></ars-log-component>
+    </div>
+</body>
+
+</html>

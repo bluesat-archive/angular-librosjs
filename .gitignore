@@ -27,3 +27,10 @@
 *.exe
 *.out
 *.app
+
+# NPM/Bower Dependencies
+bower_components/
+node_modules/
+
+# IDE Files
+.idea/

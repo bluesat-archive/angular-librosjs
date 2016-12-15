@@ -1,0 +1,13 @@
+{
+  "name": "angular-librosjs",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bluesat/angular-librosjs",
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.x",
+    "angular-mocks": "1.6.x",
+    "angular-route": "1.6.x",
+    "roslib": "0.18.0"
+  }
+}
